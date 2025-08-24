@@ -22,7 +22,7 @@ nav{
     align-items: center;
 }
 
-a{
+nav a{
     display: flex;
     padding: 10px 25px;
     font-size: 22px;
@@ -42,7 +42,7 @@ header h1{
 nav a:hover{
     color: white;
     text-decoration: underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 2px 3px 10px 2px white;
 }
 
@@ -65,4 +65,34 @@ div{
   margin: 0;
   padding: 0;
   line-height: 0; 
+}
+
+.welcome{
+    padding: 10px 20px 10px 20px;
+    margin: 95px 75px 95px 105px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px 14px white;
+    transition: 0.3s;
+    color: white;
+}
+
+.welcome:hover{
+    transform: scale(1.05);
+}
+
+main{
+    display: flex;
+}
+
+.cake{
+    margin: 95px 75px 95px 245px;
+    border-radius: 33px;
+    box-shadow: 0px 4px 20px 14px white;
+    display: block;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.cake:hover{
+    transform: scale(1.05);
 }
