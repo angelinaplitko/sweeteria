@@ -114,3 +114,8 @@ th{
 td {
     font-size: 18px;
 }
+
+table a{
+    color: white;
+    text-decoration: wavy underline;
+}
