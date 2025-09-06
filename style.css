@@ -1,206 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    margin: 0;
-    font-family: "Sour Gummy", sans-serif;
-    background-color: #fcd3dc;
+  margin: 0;
+  font-family: "Sour Gummy", sans-serif;
+  background-color: #fcd3dc;
 }
 
 header {
-    background-color: #c8de9d;
-    padding: 20px 20px 40px 20px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 4px 20px 14px white;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    animation: appear 0.5s linear;
+  background-color: #c8de9d;
+  padding: 20px 20px 40px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 20px 14px white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  animation: appear 0.5s linear;
 }
 
 nav {
-    margin: auto;
-    display: flex;
-    align-items: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 nav a {
-    display: flex;
-    padding: 10px 25px;
-    font-size: 22px;
-    text-decoration: none;
-    background-color: #fcd3dc;
-    color: #bdd68b;
-    border-radius: 15px;
-    margin: 15px 20px 15px 20px;
-    transition: 0.5s;
-    align-items: center;
+  display: flex;
+  padding: 10px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: #fcd3dc;
+  color: #bdd68b;
+  border-radius: 15px;
+  margin: 15px 20px 15px 20px;
+  transition: 0.5s;
+  align-items: center;
 }
 
 header h1 {
-    color: #fd95ab;
+  color: #fd95ab;
 }
 
 nav a:hover {
-    color: white;
-    text-decoration: underline;
-    transform: scale(1.1);
-    box-shadow: 2px 3px 10px 2px white;
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.1);
+  box-shadow: 2px 3px 10px 2px white;
 }
 
 .logo {
-    width: 230px;
-    height: 230px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: none;
+  width: 230px;
+  height: 230px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .logo-container {
-    margin: 0;
-    padding: 0;
-    line-height: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
 .welcome {
-    padding: 10px 20px 10px 20px;
-    margin: 95px 75px 95px 105px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 20px 14px white;
-    transition: 0.3s;
-    color: white;
-    animation: text 0.5s linear;
-    background-color: #c8de9d;
-    width: 600px;
+  padding: 10px 20px 10px 20px;
+  margin: 95px 75px 95px 105px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 20px 14px white;
+  transition: 0.3s;
+  color: white;
+  animation: text 0.5s linear;
+  background-color: #c8de9d;
+  width: 600px;
 }
 
 .welcome:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-
 .cake {
-    margin: 95px 75px 95px 245px;
-    border-radius: 33px;
-    box-shadow: 0px 4px 20px 14px white;
-    display: block;
-    overflow: hidden;
-    transition: 0.3s;
-    animation: pic 0.5s linear;
+  margin: 95px 75px 95px 245px;
+  border-radius: 33px;
+  box-shadow: 0px 4px 20px 14px white;
+  display: block;
+  overflow: hidden;
+  transition: 0.3s;
+  animation: pic 0.5s linear;
 }
 
 .cake:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .intro {
-    display: flex;
+  display: flex;
 }
 
-.highlights{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.highlights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.highlights-text{
-    background-color: #c8de9d;
-    width: 350px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 20px 14px white;
-    padding: 10px 20px 10px 20px;
-    margin: 15px 35px 95px 355px;
-    color: white;
-    transition: 0.3s;
-    animation: text 0.5s linear;
+.highlights-text {
+  background-color: #c8de9d;
+  width: 350px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 20px 14px white;
+  padding: 10px 20px 10px 20px;
+  margin: 15px 35px 95px 355px;
+  color: white;
+  transition: 0.3s;
+  animation: text 0.5s linear;
 }
 
-.marshmallow{
-    width: 260px;
-    height: 260px;
-    margin: 15px 205px 95px 25px;
-    opacity: 1;
-    border-radius: 33px;
-    box-shadow: 0px 4px 20px 14px white;
-    transition: 0.3s;
-    animation: pic 0.5s linear;
+.marshmallow {
+  width: 260px;
+  height: 260px;
+  margin: 15px 205px 95px 25px;
+  opacity: 1;
+  border-radius: 33px;
+  box-shadow: 0px 4px 20px 14px white;
+  transition: 0.3s;
+  animation: pic 0.5s linear;
 }
 
 .marshmallow:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .highlights-text:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-@keyframes appear{
-  0%{
+@keyframes appear {
+  0% {
     opacity: 0;
     transform: translateY(-30px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-@keyframes text{
-  0%{
+@keyframes text {
+  0% {
     opacity: 0;
     transform: translateX(-30px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-@keyframes pic{
-  0%{
+@keyframes pic {
+  0% {
     opacity: 0;
     transform: translateX(30px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.story-text{
-    background-color: #c8de9d;
-    width: 600px;
-    border-radius: 25px;
-    box-shadow: 0px 4px 20px 14px white;
-    padding: 10px 20px 10px 20px;
-    margin: 15px 235px 95px 55px;
-    color: white;
-    transition: 0.3s;
-    animation: text 0.5s linear;
+.story-text {
+  background-color: #c8de9d;
+  width: 600px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 20px 14px white;
+  padding: 10px 20px 10px 20px;
+  margin: 15px 235px 95px 55px;
+  color: white;
+  transition: 0.3s;
+  animation: text 0.5s linear;
 }
 
-.store{
-    width: 260px;
-    height: 260px;
-    margin: 15px 55px 95px 125px;
-    opacity: 1;
-    border-radius: 33px;
-    box-shadow: 0px 4px 20px 14px white;
-    transition: 0.3s;
-    animation: pic 0.5s linear;
+.store {
+  width: 260px;
+  height: 260px;
+  margin: 15px 55px 95px 125px;
+  opacity: 1;
+  border-radius: 33px;
+  box-shadow: 0px 4px 20px 14px white;
+  transition: 0.3s;
+  animation: pic 0.5s linear;
 }
 
 .store:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .story-text:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.story-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.story-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
