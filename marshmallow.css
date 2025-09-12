@@ -94,10 +94,22 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  animation: pic 0.5s linear;
 }
 
 .trio, .Blue, .apple, .mango, .vanilla, .choco, .marshmallow-pic, .angel {
   width: 220px;
   height: 220px;
   border-radius: 13px;
+}
+
+@keyframes pic {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
