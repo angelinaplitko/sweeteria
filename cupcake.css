@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: "Sour Gummy", sans-serif;
   background-color: #fcd3dc;
+  text-align: center;
 }
 
 header {
@@ -68,4 +69,35 @@ nav a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.cups{
+  background-color: #c8de9d;
+  width: 300px;
+  padding: 30px 5px 5px 5px;
+  margin-top: 45px;
+  margin-bottom: 45px; 
+  border-radius: 13px;
+  color: white;
+  transition: 0.3s;
+  display: inline-block;
+  height: 400px;
+}
+
+.cups:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px 14px white;
+}
+
+ .honey, .kakao, .Strawberry, .Lemon, .Passion, .velvet, .blueberry, .swirl{
+  width: 220px;
+  height: 220px;
+  border-radius: 13px;
+} 
+
+.group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
