@@ -71,18 +71,6 @@ nav a:hover {
   }
 }
 
-.marshmallow-pic{
-  width: 220px;
-  height: 220px;
-  border-radius: 13px;
-}
-
-.angel{
-  width: 220px;
-  height: 220px;
-  border-radius: 13px;
-}
-
 .menu{
   background-color: #c8de9d;
   width: 300px;
@@ -108,7 +96,7 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.trio, .Blue, .apple{
+.trio, .Blue, .apple, .mango, .vanilla, .choco, .marshmallow-pic, .angel {
   width: 220px;
   height: 220px;
   border-radius: 13px;
