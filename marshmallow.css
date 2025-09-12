@@ -107,3 +107,9 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.trio, .Blue, .apple{
+  width: 220px;
+  height: 220px;
+  border-radius: 13px;
+}
