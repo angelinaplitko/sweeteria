@@ -87,7 +87,7 @@ nav a:hover {
 
 .menu:hover {
   transform: scale(1.05);
-  box-shadow: 5px 4px 15px 24px #e892bf;
+  box-shadow: 5px 4px 15px 18px #e892bf;
 }
 
 .group{
@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .hallo{
-  background-color: #efc17c;
+  background-color: #ffffff;
   width: 300px;
   padding: 30px 5px 5px 5px;
   margin-top: 45px;
@@ -131,5 +131,5 @@ nav a:hover {
 
 .hallo:hover {
   transform: scale(1.05);
-  box-shadow: 5px 4px 15px 24px #4e004e;
+  box-shadow: 5px 4px 15px 18px #ff701e;
 }

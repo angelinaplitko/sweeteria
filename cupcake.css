@@ -82,14 +82,15 @@ nav a:hover {
   transition: 0.3s;
   display: inline-block;
   height: 400px;
+  box-shadow: 5px 4px 20px 7px #ffffff;
 }
 
 .cups:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 20px 14px white;
+  box-shadow: 5px 4px 15px 18px #e892bf;
 }
 
- .honey, .kakao, .Strawberry, .Lemon, .Passion, .velvet, .blueberry, .swirl{
+ .honey, .kakao, .Strawberry, .Lemon, .Passion, .velvet, .blueberry, .swirl, .halloween, .leberry, .Bluemon, .lotus{
   width: 220px;
   height: 220px;
   border-radius: 13px;
@@ -112,4 +113,23 @@ nav a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.hallo{
+  background-color: #ffffff;
+  width: 300px;
+  padding: 30px 5px 5px 5px;
+  margin-top: 45px;
+  margin-bottom: 45px; 
+  border-radius: 13px;
+  color: #000000;
+  transition: 0.3s;
+  display: inline-block;
+  height: 400px;
+  box-shadow: 5px 4px 20px 7px black;
+}
+
+.hallo:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 4px 15px 18px #ff701e;
 }
