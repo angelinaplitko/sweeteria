@@ -82,11 +82,12 @@ nav a:hover {
   transition: 0.3s;
   display: inline-block;
   height: 400px;
+  box-shadow: 5px 4px 20px 7px #ffffff;
 }
 
 .menu:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 20px 14px white;
+  box-shadow: 5px 4px 15px 24px #e892bf;
 }
 
 .group{
@@ -97,7 +98,7 @@ nav a:hover {
   animation: pic 0.5s linear;
 }
 
-.trio, .Blue, .apple, .mango, .vanilla, .choco, .marshmallow-pic, .angel {
+.trio, .Blue, .apple, .mango, .vanilla, .choco, .marshmallow-pic, .angel, .Pastel, .rainbow, .Ocean, .Halloween {
   width: 220px;
   height: 220px;
   border-radius: 13px;
@@ -112,4 +113,23 @@ nav a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.hallo{
+  background-color: #efc17c;
+  width: 300px;
+  padding: 30px 5px 5px 5px;
+  margin-top: 45px;
+  margin-bottom: 45px; 
+  border-radius: 13px;
+  color: #000000;
+  transition: 0.3s;
+  display: inline-block;
+  height: 400px;
+  box-shadow: 5px 4px 20px 7px black;
+}
+
+.hallo:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 4px 15px 24px #4e004e;
 }
