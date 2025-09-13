@@ -82,11 +82,12 @@ nav a:hover {
   transition: 0.3s;
   display: inline-block;
   height: 400px;
+  box-shadow: 5px 4px 20px 7px #ffffff;
 }
 
 .bento:hover {
   transform: scale(1.05);
-  box-shadow: 0px 4px 20px 14px white;
+  box-shadow: 5px 4px 15px 18px #e892bf;
 }
 
  .bhd, .sushi, .cheese, .twod, .desing, .minimalistic, .cupcake, .bigmini, .cloud, .teddy, .bubble, .cup, .candle, .capybara {
